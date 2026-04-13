@@ -14,3 +14,4 @@ jobs:
       - run: bunx wrangler deploy
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.cfut_A2LkdEfuLEta4UK2FAextBmcdtAPaUU3a5irl87A7598ae9a }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.be6dbe9ea0c35865215242f65ad00834 }}
